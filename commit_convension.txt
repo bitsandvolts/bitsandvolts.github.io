@@ -1,0 +1,22 @@
+# Abbreviations
+GS = Getting started
+DD = Digital Design
+WS = Website
+
+# Types
++ Fix
++ New
++ Update
+
+# New post
+[GS] New: Transistor post
+
+# Fix commit
+[GS] Fix: Transistor post
+
+Add image with better scaling
+
+# Rules
+[<Abbreviation>] <Type>: <Message> (capital letter, present)  
+
+<Further Info> (Capital letter, present)

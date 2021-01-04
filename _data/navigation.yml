@@ -1,12 +1,24 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Categories"
+    url: /categories/
+  - title: "About"
+    url: /about/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+getting_started_0:
+  - title: "Topic 0"
+    children:
+      - title: "Template Post"
+        url: /getting%20started/template
+      - title: "Google"
+        url: https://www.google.de/
+  - title: "Topic 1"
+    children:
+      - title: "Google"
+        url: https://www.google.de/

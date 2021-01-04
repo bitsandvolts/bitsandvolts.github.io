@@ -26,5 +26,47 @@
         {% endif %}
       </span>
     {% endif %}
+    {% if include.format == 'header' %}
+        {% if document.category %}<span class="page__meta-sep"></span>
+        {% if document.category == "Getting Started" %}
+            {% assign link = "/categories/getting_started" %}
+        {% elsif document.category == "Digital Design" %}
+            {% assign link = "/categories/digital_design" %}
+        {% endif %}
+        <span class="page__meta-date">
+            <i class="far fa-folder"></i>
+        <a href="{{link}}">{{document.category}}</a>
+        </span>
+        {% endif %}
+    {% endif %}
+    {% if document.author %}
+        {% if include.format == 'header' %}
+            <br_10>
+        {% else %}
+            <span class="page__meta-sep"></span>
+        {% endif %}
+        <span class="page__meta-date">
+            <i class="far fa-user"></i> {{document.author}}
+        </span>
+    {% endif %}
+    {% if document.author2 %}<span class="page__meta-sep"></span>
+    <span class="page__meta-date">
+        <i class="far fa-user"></i>
+        {{document.author2}}
+    </span>
+    {% endif %}
+    {% if include.format == 'home' %}
+        {% if document.category %}<span class="page__meta-sep"></span>
+        {% if document.category == "Getting Started" %}
+            {% assign link = "/categories/getting_started" %}
+        {% elsif document.category == "Digital Design" %}
+            {% assign link = "/categories/digital_design" %}
+        {% endif %}
+        <span class="page__meta-date">
+            <i class="far fa-folder"></i>
+        <a href="{{link}}">{{document.category}}</a>
+        </span>
+        {% endif %}
+    {% endif %}
   </p>
 {% endif %}
