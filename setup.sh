@@ -1,5 +1,16 @@
 #!/bin/bash
 
+# check if prettier is installed
+echo -n "prettier: "
+which prettier &> /dev/null
+if [ $? -ne 0 ]; then
+    echo "ERROR:"
+    echo "Please install prettier using 'sudo pacman -Sy prettier'"
+    exit 1
+else
+    echo "OK"
+fi
+
 # check if gitlint is installed
 echo -n "gitlint: "
 which gitlint &> /dev/null
