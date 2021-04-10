@@ -12,13 +12,7 @@ main:
   #   url: /sitemap/
 
 getting_started_0:
-  - title: "Topic 0"
+  - title: "Tools & Setup"
     children:
-      - title: "Template Post"
-        url: /getting%20started/template
-      - title: "Google"
-        url: https://www.google.de/
-  - title: "Topic 1"
-    children:
-      - title: "Google"
-        url: https://www.google.de/
+      - title: "Computer Setup"
+        url: /categories/getting_started/computer_setup
