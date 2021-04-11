@@ -1,7 +1,8 @@
 # Abbreviations
 GS = Getting started
 DD = Digital Design
-WS = Website
+WB = Website Backend
+WF = Website Frontend
 
 # Types
 + Fix
