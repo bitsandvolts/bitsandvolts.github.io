@@ -5,7 +5,7 @@ permalink: /categories/
 date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#000"
-  overlay_filter: "0.5"
+  overlay_filter: "0.62"
   overlay_image: /assets/images/categories.jpg
 feature_row1:
   - image_path: /assets/images/getting_started.jpg
