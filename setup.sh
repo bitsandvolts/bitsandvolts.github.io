@@ -50,15 +50,16 @@ do
     case $name in 
         Bjoern)
             author="Bjoern Hartmann"
+            email="bjoern.hartmann@rwth-aachen.de"
             break;;
         Kirthihan)
             author="Kirthihan Yasotharan"
+            email="kirthihan.yasotharan@rwth-aachen.de"
             break;;
 esac    
 done
 
 # set local email address
-email="contact@bitsandvolts.org"
 echo "set local email address to ${email}"
 git config user.email "${email}"
 
