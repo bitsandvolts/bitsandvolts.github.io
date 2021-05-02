@@ -8,3 +8,4 @@ Post checklist:
 - [ ] Ran Grammarly?
 - [ ] Added some images?
 - [ ] Ran local test?
+- [ ] Date correct?
