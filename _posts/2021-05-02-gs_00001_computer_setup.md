@@ -72,10 +72,10 @@ components inside a computer and learn how to evaluate them.
 
 ## CPU
 
+<div style="overflow: auto;" markdown="1">
 <figure style="width: 300px" class="align-left">
   <img src="/assets/images/gs_00001_cpu.jpeg" alt="">
 </figure>
-
 Let's start with the brain of the computer, the **Central Processing Unit**
 (CPU). As the name suggests it processes the operations (or "instructions") that
 are defined by a computer program. Often the term processor is used as a
@@ -83,6 +83,7 @@ synonym, however, be aware of the fact that there can be multiple processors
 inside a computer. If you read computer advertisements you probably come across
 phrases like "Quad-Core CPU at 3.6 GHz". Indeed, these are two properties that
 describe the performance of a CPU.
+</div>
 
 "3.6 GHz" means that this CPU can theoretical process 3.6 billion instructions
 per second. So it basically describes the speed of the processor, and it is
@@ -111,10 +112,10 @@ feature is useless.
 
 ## DDR SDRAM (RAM)
 
+<div style="overflow: auto;" markdown="1">
 <figure style="width: 300px" class="align-right">
   <img src="/assets/images/gs_00001_ram.jpeg" alt="">
 </figure>
-
 A computer combines multiple memories, which differ in size and access speed.
 **Random Access Memory** (RAM) is a medium-sized memory with medium speed. It is
 used to store application data on a short-term basis. For a fast computer, it is
@@ -129,14 +130,15 @@ later post. Short-term means for this memory that the data is only valid as long
 as the computer runs. As soon as you turn it off, all data will be lost. This is
 the main reason why you should properly shut down a computer to make sure all
 data is stored in a _long-term_ memory, which is explained next.
+</div>
 
 ## HDD and SSD
 
+<div style="overflow: auto;" markdown="1">
 <figure style="width: 300px" class="align-left">
   <img src="/assets/images/gs_00001_hdd.jpeg" alt="">
   <figcaption class="figure-caption text-center">HDD</figcaption>
 </figure>
-
 Nowadays two different kinds of long-term memories find their way into home
 computers. A **Hard Disk Drive** (HDD) was the only choice in the past, whereas
 a **Solid State Drive** (SSD) is a newer and faster memory type. HDD is a
@@ -145,6 +147,7 @@ writes the data. The mechanical part tends to make noise and the platters set a
 limit on how small the drive can be manufactured. Moreover, the motor that spins
 the platters requires additional energy and it takes time until the read arm is
 moved to the right location.
+</div>
 
 Compared to that, an SSD is not mechanical and typically uses flash instead (do
 not worry if you do not know what it is; it's basically like the SD card in your
@@ -153,11 +156,11 @@ be very small and light (very good for laptops!), the energy consumption is
 lower (also good for laptops!) and an SSD is faster than a HDD. Sounds almost
 too good to be true, right? Why are HDDs still used then?
 
+<div style="overflow: auto;" markdown="1">
 <figure style="width: 300px" class="align-right">
   <img src="/assets/images/gs_00001_ssd.png" alt="">
   <figcaption class="figure-caption text-center">SSD</figcaption>
 </figure>
-
 From early days there exists the myth that SSDs would die early. But this is
 nothing you have to concern about as a normal user. One concern, however, is the
 price. As of today, SSDs are more expensive, so you get less capacity for the
@@ -167,13 +170,14 @@ data that is rarely used and where you do not care so much about the speed. If
 you want to see a race between a computer that boots from an SSD and one that
 boots from an HDD, you can watch
 [this](https://www.youtube.com/watch?v=4f4saFpRlvU) video.
+</div>
 
 ## Graphics Processing Unit (GPU)
 
+<div style="overflow: auto;" markdown="1">
 <figure style="width: 300px" class="align-left">
   <img src="/assets/images/gs_00001_gpu.jpeg" alt="">
 </figure>
-
 As the name suggests, the **graphics processing unit** (or graphics card) was
 developed for handling extensive graphics applications like computer games. Over
 time, they also became attractive for computationally intensive applications
@@ -187,18 +191,20 @@ graphics units are quite good and it is also possible to play light games with
 them. Graphics cards are also of interest if you plan to have a setup with many
 monitors (three or more). Most people I know use one or two monitors at home.
 This should be fine with the integrated graphics unit.
+</div>
 
 ## Mainboard
 
+<div style="overflow: auto;" markdown="1">
 <figure style="width: 300px" class="align-right">
   <img src="/assets/images/gs_00001_mainboard.jpeg" alt="">
 </figure>
-
 The mainboard or motherboard is the place where everything is put together. The
 mainboard is a printed circuit board that allows all the components of the
 computer to communicate with each other. Here, you can plugin in the parts
 mentioned above as well as a power supply and cooling fans. It also provides
 external interfaces like USB ports.
+</div>
 
 # Is a high-end computer necessary?
 
@@ -242,7 +248,6 @@ Additionally, a mark/price ranking is provided as shown in the picture below.
   <figcaption class="figure-caption text-center">Best CPU value (Mark/Price)
   </figcaption>
 </figure>
-
 In this case, I would probably choose the AMD Ryzen 3 3200G as it provides
 enough power at a reasonable price and includes a graphics unit, so an
 additional graphics card is not required. Processors are usually available as
