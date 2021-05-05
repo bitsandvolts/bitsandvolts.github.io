@@ -73,7 +73,7 @@ components inside a computer and learn how to evaluate them.
 ## CPU
 
 <div style="overflow: auto;" markdown="1">
-<figure style="width: 300px" class="align-left">
+<figure class="img-left">
   <img src="/assets/images/gs_00001_cpu.jpeg" alt="">
 </figure>
 Let's start with the brain of the computer, the **Central Processing Unit**
@@ -113,7 +113,7 @@ feature is useless.
 ## DDR SDRAM (RAM)
 
 <div style="overflow: auto;" markdown="1">
-<figure style="width: 300px" class="align-right">
+<figure class="img-right">
   <img src="/assets/images/gs_00001_ram.jpeg" alt="">
 </figure>
 A computer combines multiple memories, which differ in size and access speed.
@@ -135,7 +135,7 @@ data is stored in a _long-term_ memory, which is explained next.
 ## HDD and SSD
 
 <div style="overflow: auto;" markdown="1">
-<figure style="width: 300px" class="align-left">
+<figure class="img-left">
   <img src="/assets/images/gs_00001_hdd.jpeg" alt="">
   <figcaption class="figure-caption text-center">HDD</figcaption>
 </figure>
@@ -157,7 +157,7 @@ lower (also good for laptops!) and an SSD is faster than a HDD. Sounds almost
 too good to be true, right? Why are HDDs still used then?
 
 <div style="overflow: auto;" markdown="1">
-<figure style="width: 300px" class="align-right">
+<figure class="img-right">
   <img src="/assets/images/gs_00001_ssd.png" alt="">
   <figcaption class="figure-caption text-center">SSD</figcaption>
 </figure>
@@ -175,7 +175,7 @@ boots from an HDD, you can watch
 ## Graphics Processing Unit (GPU)
 
 <div style="overflow: auto;" markdown="1">
-<figure style="width: 300px" class="align-left">
+<figure class="img-left">
   <img src="/assets/images/gs_00001_gpu.jpeg" alt="">
 </figure>
 As the name suggests, the **graphics processing unit** (or graphics card) was
@@ -196,7 +196,7 @@ This should be fine with the integrated graphics unit.
 ## Mainboard
 
 <div style="overflow: auto;" markdown="1">
-<figure style="width: 300px" class="align-right">
+<figure class="img-right">
   <img src="/assets/images/gs_00001_mainboard.jpeg" alt="">
 </figure>
 The mainboard or motherboard is the place where everything is put together. The
@@ -243,7 +243,7 @@ score considering multiple aspects. You can use websites like
 [www.cpubenchmark.net](https://www.cpubenchmark.net/) to compare CPUs.
 Additionally, a mark/price ranking is provided as shown in the picture below.
 
-<figure class="align-center">
+<figure class="img-center">
   <img src="/assets/images/gs_00001_mark_price.jpeg" alt="">
   <figcaption class="figure-caption text-center">Best CPU value (Mark/Price)
   </figcaption>
