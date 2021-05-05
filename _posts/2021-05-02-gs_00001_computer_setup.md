@@ -182,7 +182,7 @@ As the name suggests, the **graphics processing unit** (or graphics card) was
 developed for handling extensive graphics applications like computer games. Over
 time, they also became attractive for computationally intensive applications
 such as Bitcoin mining or neural networks (these cool algorithms that can detect
-your face or your cat or ...). This is because the design of GPUs is optimized
+your face or your cat <nobr>or ...</nobr>). This is because the design of GPUs is optimized
 for matrix operations. A graphics card is not a mandatory part, so it is
 possible to save some money. Be warned! A graphics card is often the part that
 makes a computer super expensive. In the case you want to save that money, you
@@ -262,32 +262,34 @@ B450M PRO-VDH MAX. It offers enough interfaces like 4 DIMM slots for your RAM, 4
 SATA connectors for your HDD and SSD drives, in total 6 USB 3.2 ports, VGA,
 HDMI, and DVI-D for your monitors.
 
-As for RAM, I would use 2 x 8 GB DDR4 memory. Note that you have to match the
-specification of the motherboard and CPU. If the CPU requires DDR4 you cannot
-use a RAM with DDR3. Also, pay attention to the clock speed. The higher the
-speed, the better the performance as long it is supported by the CPU and
+As for RAM, I would use <nobr>2 x 8 GB</nobr> DDR4 memory. Note that you have to
+match the specification of the motherboard and CPU. If the CPU requires DDR4 you
+cannot use a RAM with DDR3. Also, pay attention to the clock speed. The higher
+the speed, the better the performance as long it is supported by the CPU and
 motherboard. Additionally, there exists a maximum number of RAMs as well as a
 maximal amount of storage. For B450M PRO-VDH MAX, this is 4 RAMs with a total of
-up to 128 GB. By the way: 2 x 8 GB memories usually perform better than a single
-16 GB memory since they can be accessed in parallel. If you want to save money
-you can start with a single 8 GB RAM and buy a second one later if you need to.
+up to <nobr>128 GB</nobr>. By the way: <nobr>2 x 8 GB</nobr> /nobrmemories
+usually perform better than a single <nobr>16 GB</nobr> memory since they can be
+accessed in parallel. If you want to save money you can start with a single
+<nobr>8 GB<nobr> RAM and buy a second one later if you need to.
 
 As I said earlier, I recommend combining SSD and HDD drives. The SSD is still
 more expensive so I use it only for the operating system and programs that I use
-frequently. 256 GB were enough for me so far. Data that I do not use that often
-like pictures of my last vacation, I store on an HDD. Here I bought 1 TB. If you
-find out that either the SSD or HDD is not enough you can buy a third drive
-later.
+frequently. <nobr>256 GB</nobr> were enough for me so far. Data that I do not
+use that often like pictures of my last vacation, I store on an HDD. Here I
+bought <nobr>1 TB</nobr>. If you find out that either the SSD or HDD is not
+enough you can buy a third drive later.
 
 Lastly, you need a power supply, a computer housing and some thermal paste. For
 the supply, you need to sum up the power requirements of your parts. Since there
-is not so much price difference in low power segments, you can just buy a 400 W
-power supply. This is enough even you add a low- to mid-range graphics card. As
-for housing, you can almost choose whatever you like. Keep an eye on the form
-factor and the provided interfaces. A housing with preinstalled fans makes the
-assembling easier for you. The thermal paste needs to be put between the
-processer and the heat sink to guarantee optimal cooling. Sometimes the fan
-already has some thermal paste on it. Then, you do not need additional paste.
+is not so much price difference in low power segments, you can just buy a
+<nobr>400 W</nobr> power supply. This is enough even you add a low- to mid-range
+graphics card. As for housing, you can almost choose whatever you like. Keep an
+eye on the form factor and the provided interfaces. A housing with preinstalled
+fans makes the assembling easier for you. The thermal paste needs to be put
+between the processer and the heat sink to guarantee optimal cooling. Sometimes
+the fan already has some thermal paste on it. Then, you do not need additional
+paste.
 
 Here are the parts I described above:
 
@@ -413,7 +415,8 @@ What you have to do for installing Manjaro alongside Windows:
 2. Resize your partitions <br> At the moment, the whole disk space is dedicated
    to Windows. So, you need to shrink the space for Windows and make it
    available for Manjaro. How you distribute the space is up to you. Manjaro
-   recommends at least 30 GB of storage, but 128 GB or more are nice to have.
+   recommends at least <nobr>30 GB</nobr> of storage, but <nobr>128 GB</nobr> or
+   more are nice to have.
 3. Create a bootable USB <br> An easy solution is to install Manjaro from a USB
    stick. Download Manjaro and create a bootable USB stick. Note that you cannot
    just copy the downloaded file on the USB stick. It has to be in a special
