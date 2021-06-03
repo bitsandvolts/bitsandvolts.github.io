@@ -12,32 +12,24 @@ toc_sticky: true
 toc_icon: "align-justify"
 ---
 
-# Who we are
-
-We are Bjoern and Kirthihan, two enthusiastic computer engineers with a passion
-for embedded systems, digital design and efficient software programming. Our
-journey together began when we studied electrical engineering at RWTH Aachen
-University in Germany. At the Institute for Communication Technologies and
-Embedded Systems, we worked as student assistants, where we contributed to
-different projects in the fields of hardware accelerators for machine learning,
-FPGA design, processor prototyping and embedded software. Nowadays, Bjoern works
-as a firmware developer in the audio industry. Kirthihan works as a digital
-hardware developer in the cybersecurity industry.
-
-# What you can expect
+# Bits&Volts - A blog for everyone
 
 There are already tons of good resources available. So you are probably
-wondering why we are starting another blog. On the one hand, we love to work
-together on electronic projects. On the other hand, we like to share our
-knowledge with other people. That's why we created Bits&Volts.
+wondering why we are starting another blog. Back when we were fresh students, we
+always felt that the barrier to enter the field of electronics is way higher
+than it should've been. Even at university, we learned deep and complex theory,
+while simple and practical aspects were rarely explained. So many times we did
+things wrong or inefficiently while a voice in our head asked: "Why didn't
+anyone tell us?". It can be hard to get going with electronics since you do not
+know the right place to start. How can you distinguish between a good and a bad
+resource? Often we come across resources that either do only cover a small piece
+of the whole pie or skip important details, making it too hard to follow.
 
-We always had the feeling that the barrier to enter the field of electronics is
-way higher than it should be. Even at university, we learned deep and complex
-theory, while simple and practical aspects, like properly using Git, were never
-explained. The tricky question is how to know what and where to look as a
-beginner or student? How to distinguish between a good and a bad resource? It
-often ended up doing things in a wrong or inefficient way, where we just wished
-someone told us in advance.
+We created Bits&Volts to explain exciting topics in detail from the very
+beginning so that everyone can follow. For more advanced topics, we try to
+supplement required prior knowledge with references to other posts or external
+resources. Whether you are an absolute beginner, an enthusiastic hobbyist, a
+passionate student, or even an experienced engineer, our blog is for everyone.
 
 To begin with, we introduce two categories: **Getting Started** and **Digital
 Design**. In the former, we will share the knowledge that is useful to enter the
@@ -47,14 +39,20 @@ fundamentals of building digital circuits. We will start with the basics such as
 transistors and logic gates, then move up towards higher-level concepts, like
 processors.
 
-We try to start completely from the beginning so that everyone can follow. In
-categories with more advanced topics, we try to fill in required prior knowledge
-by pointing to other posts or external resources. Whether you are an absolute
-beginner, an enthusiastic hobbyist, a passionate student, or even an experienced
-engineer, our blog is for everyone.
-
 In the future, we might add more categories, but for now, we will start with the
 upper two. So, let's see where it takes us!
+
+# Who we are
+
+We are Bjoern and Kirthihan, two enthusiastic computer engineers with a passion
+for embedded systems, digital design and efficient software programming. Our
+journey started with studying Electrical Engineering at RWTH Aachen University
+in Germany. At the Institute for Communication Technologies and Embedded
+Systems, we worked as student assistants, where we contributed to different
+projects in the fields of hardware accelerators for machine learning, FPGA
+design, processor prototyping and embedded software. Nowadays, Bjoern works as a
+firmware developer in the audio industry. Kirthihan works as a digital hardware
+developer in the cybersecurity industry.
 
 # How you can reach us
 
