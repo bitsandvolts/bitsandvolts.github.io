@@ -20,3 +20,5 @@ getting_started_0:
     children:
       - title: "Terminal Basics"
         url: /categories/getting_started/terminal_basics
+      - title: "Terminal Basics II"
+        url: /categories/getting_started/terminal_basics2
