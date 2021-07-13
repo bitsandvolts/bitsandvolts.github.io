@@ -16,3 +16,7 @@ getting_started_0:
     children:
       - title: "Computer Setup"
         url: /categories/getting_started/computer_setup
+  - title: "Basics"
+    children:
+      - title: "Terminal Basics"
+        url: /categories/getting_started/terminal_basics

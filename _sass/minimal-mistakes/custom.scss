@@ -43,3 +43,94 @@ br_10 {
   margin-right: auto;
 }
  
+.note-normal {
+  padding-left: 1em;
+  border-left: 6px solid #61590d;
+  margin-top: 1em;
+  margin-bottom: 1em;
+
+  top4 {
+    margin-top: 0;
+    margin-bottom: 0.25em;
+    line-height: inherit;
+  }
+
+  ul {
+    margin-block-start: 0.25em;
+    margin-block-end: 0.25em;
+  }
+  
+  li{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+.note-exercise {
+  padding-left: 1em;
+  border-left: 6px solid #0b81a5;
+  margin-top: 1em;
+  margin-bottom: 1em;
+
+  top4 {
+    margin-top: 0;
+    margin-bottom: 0.25em;
+    line-height: inherit;
+  }
+
+  ul {
+    margin-block-start: 0.25em;
+    margin-block-end: 0.25em;
+  }
+  
+  li{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+.note-example {
+  padding-left: 1em;
+  border-left: 6px solid #55a54a;
+  margin-top: 1em;
+  margin-bottom: 1em;
+
+  top4 {
+    margin-top: 0;
+    margin-bottom: 0.25em;
+    line-height: inherit;
+  }
+
+  ul {
+    margin-block-start: 0.25em;
+    margin-block-end: 0.25em;
+  }
+  
+  li{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+.note-warning {
+  padding-left: 1em;
+  border-left: 6px solid #a50b0b;
+  margin-top: 1em;
+  margin-bottom: 1em;
+
+  top4 {
+    margin-top: 0;
+    margin-bottom: 0.25em;
+    line-height: inherit;
+  }
+
+  ul {
+    margin-block-start: 0.25em;
+    margin-block-end: 0.25em;
+  }
+  
+  li{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
