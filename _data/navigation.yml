@@ -22,3 +22,5 @@ getting_started_0:
         url: /categories/getting_started/terminal_basics
       - title: "Terminal Basics II"
         url: /categories/getting_started/terminal_basics2
+      - title: "Basic Shell Script"
+        url: /categories/getting_started/basic_shell_script
