@@ -9,3 +9,4 @@ Post checklist:
 - [ ] Added some images?
 - [ ] Ran local test?
 - [ ] Date correct?
+- [ ] Squashed commits?
