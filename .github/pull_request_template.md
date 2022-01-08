@@ -8,5 +8,6 @@ Post checklist:
 - [ ] Ran Grammarly?
 - [ ] Added some images?
 - [ ] Ran local test?
+- [ ] All links work?
 - [ ] Date correct?
 - [ ] Squashed commits?
