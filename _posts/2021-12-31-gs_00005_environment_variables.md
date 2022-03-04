@@ -156,7 +156,7 @@ Hmm ... It is the same script as we used in the last post and there it worked.
 What went wrong? Can you guess? The answer is: we have overwritten the `PATH`
 variable so that it solely consists of your home directory. Since firefox is not
 located there, it cannot be found. By the way, also none of the Linux commands
-we've learned will not work anymore! Have a try:
+we've learned will work anymore! Have a try:
 
     $ ls
 
@@ -258,9 +258,9 @@ are going to use them in future posts. In detail, we learned the following:
 - **Environment variables** are variables that describe an environment
 - An _environment_ can be a different machine or setting
 - You can display the content of a variable using **echo**
-- **$PATH** holds directories with your executables
-- Your home directory path is stored in **$HOME**
-- **$EDITOR** can store the favorite editor
+- **\$PATH** holds directories with your executables
+- Your home directory path is stored in **\$HOME**
+- **\$EDITOR** can store the favorite editor
 - Environment variables can be set using the **export** command
 - There is no guarantee that a variable is set
 - Variables are reinitialized for every new session
