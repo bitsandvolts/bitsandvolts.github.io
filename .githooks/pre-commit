@@ -1,6 +1,7 @@
 #!/bin/bash
 
-prettier -c **/*.md
+git status -s | grep 'M*.md' | cut -f3 -d' ' | xargs prettier -c
+git status -s | grep '??*.md' | cut -f2 -d' ' | xargs prettier -c
 if [ $? -ne 0 ]; then
     exit 1
 else
