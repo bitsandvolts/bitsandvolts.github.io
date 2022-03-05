@@ -7,9 +7,10 @@
 # section "[body-max-line-length]" could also be written as "[B1]". Full section names are
 # used in here for clarity.
 #
-# [general]
+[general]
 # Ignore certain rules, this example uses both full name and id
 # ignore=title-trailing-punctuation, T3
+ignore=body-is-missing
 
 # verbosity should be a value between 1 and 3, the commandline -v flags take precedence over this
 # verbosity = 2
@@ -63,8 +64,8 @@ regex=\[(GS|DD|WB|WF)\] (Fix|New|Update): [A-Z]+[a-zA-Z0-9- ]+
 # [body-max-line-length]
 # line-length=72
 
-# [body-min-length]
-# min-length=5
+[body-min-length]
+min-length=5
 
 # [body-is-missing]
 # Whether to ignore this rule on merge commits (which typically only have a title)
