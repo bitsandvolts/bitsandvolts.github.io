@@ -26,3 +26,5 @@ getting_started_0:
         url: /categories/getting_started/basic_shell_scripts
       - title: "Environment Variables"
         url: /categories/getting_started/environment_variables
+      - title: "File Permissions"
+        url: /categories/getting_started/file_permissions
