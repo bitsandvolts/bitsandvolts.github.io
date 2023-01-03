@@ -28,3 +28,5 @@ getting_started_0:
         url: /categories/getting_started/environment_variables
       - title: "File Permission Basics"
         url: /categories/getting_started/file_permissions
+      - title: "Programming Tutorial I"
+        url: /categories/getting_started/programming_tutorial_I
