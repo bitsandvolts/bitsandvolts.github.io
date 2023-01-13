@@ -4,6 +4,7 @@ title: Terminal Basics II
 category: Getting Started
 permalink: /categories/getting_started/terminal_basics2
 excerpt: "Basic Linux Terminal usage"
+description: "Basic Linux Terminal usage part II. A blog post for beginners"
 author: Bjoern Hartmann
 toc: true
 toc_label: "Content"
@@ -78,7 +79,7 @@ One possible solution is:
     touch houses/onehouse.txt
     touch info.txt
 
-# Files addendum
+## Files addendum
 
 In the last post, we already explained that you can create a file with the
 "touch" command and that you can print the content of a file with the "cat"
@@ -113,7 +114,7 @@ Fill the files "red.txt" and "onehouse.txt" with a price of your choice.
 
 </div>
 
-# File / Folder search
+## File / Folder search
 
 Now, we want to search for a file or a folder using the "find" command (probably
 you already noticed that command names are usually very intuitive). Let's find
@@ -172,7 +173,7 @@ showed you how to run a program! Did you notice? It is as simple as typing the
 name of the software like "nano". Well, ... to be honest, there is a bit more
 behind it. Let's give you a bit more information in the following sections.
 
-# Software management
+## Software management
 
 Linux distributions are usually shipped with preinstalled packages. Manjaro, for
 example, has basic software installed for your daily life, such as a text
@@ -182,7 +183,7 @@ the website of the software distributor, download the software and run an
 installer. In Linux, you have many options to do it. A common way is to use
 something called a **package manager**.
 
-## Package Manager
+### Package Manager
 
 What is a package manager? Well, it obviously manages your software packages.
 But what does that mean? It means that the package manager handles everything
@@ -204,7 +205,7 @@ There exist many different package managers. We are going to introduce you to
 **Pacman** that is the standard package manager for Arch Linux distributions.
 Since Manjaro is based on Arch it is also commonly used there.
 
-## Pacman
+### Pacman
 
 **Pacman** is one of many available package managers. The good news is that all
 package managers work similarly. As always, you can check the manpage or help
@@ -272,7 +273,7 @@ Consequently, the are packages you cannot install with Pacman. You can check the
 documentation of the package if it is inside another package manager or if you
 have to install it manually. We will come back to it in a later post.
 
-# Run your software
+## Run your software
 
 After we have learned how to install software, we now want to know how to run
 it. Actually, you already know how to do it. Do you remember how you run the
@@ -358,7 +359,7 @@ of around 40%. What about yours? If you have multiple cores, you can see the
 utilization per core. Exit "htop" using CTRL-C.
 
 <figure class="img-center" style="width:80%">
-  <img src="/assets/images/gs_00003_htop.png" alt="">
+  <img src="/assets/images/gs_00003_htop.png" alt="htop" title="htop">
 </figure>
 
 <div class='note-example' markdown="1">
@@ -372,7 +373,7 @@ identify such processes and kill them.
 
 </div>
 
-# Summary
+## Summary
 
 In the last two posts about the Linux terminal, we have already learned a total
 of 17 commands:

@@ -4,6 +4,9 @@ title: Environment Variables
 category: Getting Started
 permalink: /categories/getting_started/environment_variables
 excerpt: "What they are and why they are useful"
+description:
+  "Environment Variables - What they are and why they are useful. A blog post
+  for beginners"
 author: Bjoern Hartmann
 toc: true
 toc_label: "Content"
@@ -30,7 +33,7 @@ didn't explain yet. Namely, we are talking about **privileges** and
 **environment variables**. We will cover the latter one in this post. The former
 one is covered in the upcoming post.
 
-# Environment Variables
+## Environment Variables
 
 You probably heard the two terms **environment** and **variable** before. The
 term _variable_ should be familiar from your math class where you can have an
@@ -57,7 +60,7 @@ computer program might do something different in a different environment, which
 could be a different machine, different operating system, or simply a different
 setting. We are going to discuss some examples to make it clear.
 
-# List environment variables
+## List environment variables
 
 In the previous [post](/categories/getting_started/basic_shell_scripts), we
 already mentioned the **PATH** variable. It holds paths to directories where
@@ -73,7 +76,7 @@ variable and `PATH` is the variable name. The output is a list of directories
 separated by a colon:
 
 <figure class="img-center" style="width:90%">
-  <img src="/assets/images/gs_00005_path.jpg" alt="">
+  <img src="/assets/images/gs_00005_path.jpg" alt="PATH" title="PATH">
 </figure>
 
 Let's try another example. Imagine you want to write a program that displays a
@@ -95,7 +98,7 @@ Linux systems, such as `PATH`, `EDITOR`, `SHELL`, or `USER`. Of course, you can
 change the value of any variable or create a new one as we will show in the
 following.
 
-# Set environment variables
+## Set environment variables
 
 Let's try to reuse the `open_firefox.sh` script from the last
 [post](/categories/getting_started/basic_shell_scripts). In case, you do not
@@ -140,7 +143,7 @@ display the content,
 you should see that it changed.
 
 <figure class="img-center" style="width:90%">
-  <img src="/assets/images/gs_00005_export.jpg" alt="">
+  <img src="/assets/images/gs_00005_export.jpg" alt="export" title="export">
 </figure>
 
 Now, try to run the script again as before:
@@ -148,7 +151,7 @@ Now, try to run the script again as before:
     $ open_firefox.sh
 
 <figure class="img-center" style="width:90%">
-  <img src="/assets/images/gs_00005_firefox.jpg" alt="">
+  <img src="/assets/images/gs_00005_firefox.jpg" alt="Firefox" title="Firefox">
 </figure>
 
 The script can be found, but now we get an error that firefox cannot be found?!
@@ -200,7 +203,7 @@ Verify that you can also see your new variable using the `printenv` command.
 
 </div>
 
-# Permanent change
+## Permanent change
 
 There is one issue left. As we saw, the path setting stays active only for the
 current session. What if you want to have it changed _permanently_? We do not
@@ -227,7 +230,7 @@ Keep the `PATH` variable in mind the next time you write a script, it can save
 you a lot of time!
 
 <figure class="img-center" style="width:90%">
-  <img src="/assets/images/gs_00005_bashrc.jpg" alt="">
+  <img src="/assets/images/gs_00005_bashrc.jpg" alt="bashrc" title="bashrc">
 </figure>
 
 But ... be aware of the fact that it is not a good way to always add more and
@@ -250,7 +253,7 @@ situation that multiple solutions will work and it is not directly clear which
 is the better one. But don't worry! It is easier to learn with some examples
 which we will do in later posts.
 
-# Summary
+## Summary
 
 Alright! That is the whole magic about environment variables. Very likely, we
 are going to use them in future posts. In detail, we learned the following:

@@ -12,7 +12,7 @@ toc_sticky: true
 toc_icon: "align-justify"
 ---
 
-# Bits&Volts - A blog for everyone
+## Bits&Volts - A blog for everyone
 
 There are already tons of good resources available. So you are probably
 wondering why we are starting another blog. Back when we were fresh students, we
@@ -42,7 +42,7 @@ processors.
 In the future, we might add more categories, but for now, we will start with the
 upper two. So, let's see where it takes us!
 
-# Who we are
+## Who we are
 
 We are Bjoern and Kirthihan, two enthusiastic computer engineers with a passion
 for embedded systems, digital design and efficient software programming. Our
@@ -54,7 +54,7 @@ design, processor prototyping and embedded software. Nowadays, Bjoern works as a
 firmware developer in the audio industry. Kirthihan works as a digital hardware
 developer in the cybersecurity industry.
 
-# How you can reach us
+## How you can reach us
 
 If you want to get in touch with us, there are several ways to do so. First of
 all, you can comment below any of our posts. We highly appreciate any
