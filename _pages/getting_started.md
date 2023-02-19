@@ -4,7 +4,7 @@ title: Getting Started
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/getting_started.jpg
+  overlay_image: /assets/images/getting_started.jpeg
 permalink: /categories/getting_started
 excerpt: Software Engineering for beginners.
 description: Software Engineering for beginners

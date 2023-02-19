@@ -17,7 +17,7 @@ sidebar:
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/getting_started.jpg
+  overlay_image: /assets/images/getting_started.jpeg
 ---
 
 Hello and welcome back to a new post, where we want to fill a small gap from our

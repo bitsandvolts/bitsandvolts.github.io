@@ -4,7 +4,7 @@ title: About
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/about.jpg
+  overlay_image: /assets/images/about.jpeg
 permalink: /about/
 toc: true
 toc_label: "Content"

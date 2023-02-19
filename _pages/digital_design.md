@@ -4,7 +4,7 @@ title: Digital Design
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/digital_design.jpg
+  overlay_image: /assets/images/digital_design.jpeg
 permalink: /categories/digital_design
 excerpt: Introduction to digital design
 description: Introduction to digital design

@@ -7,9 +7,9 @@ date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.62"
-  overlay_image: /assets/images/categories.jpg
+  overlay_image: /assets/images/about.jpeg
 feature_row1:
-  - image_path: /assets/images/getting_started.jpg
+  - image_path: /assets/images/getting_started.jpeg
     title: "Getting Started"
     excerpt:
       "Software Engineering for beginners. Basic knowledge for students and
@@ -29,7 +29,7 @@ feature_row2:
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row3:
-  - image_path: /assets/images/digital_design.jpg
+  - image_path: /assets/images/digital_design.jpeg
     title: "Digital Design"
     excerpt:
       "Introduction to Digital Design. Have you ever wanted to know how to
