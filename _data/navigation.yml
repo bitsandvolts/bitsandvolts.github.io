@@ -14,17 +14,17 @@ main:
 getting_started_0:
   - title: "Tools & Setup"
     children:
-      - title: "Computer Setup"
+      - title: "Computer Setup for Software Engineers"
         url: /categories/getting_started/computer_setup
   - title: "Basics"
     children:
-      - title: "Terminal Basics"
+      - title: "Linux Terminal Basics"
         url: /categories/getting_started/terminal_basics
-      - title: "Terminal Basics II"
+      - title: "Linux Terminal Basics II"
         url: /categories/getting_started/terminal_basics2
-      - title: "Basic Shell Script"
+      - title: "Basics of Linux Shell Script"
         url: /categories/getting_started/basic_shell_scripts
-      - title: "Environment Variables"
+      - title: "Intro to Environment Variables"
         url: /categories/getting_started/environment_variables
-      - title: "File Permissions"
+      - title: "File Permission Basics"
         url: /categories/getting_started/file_permissions

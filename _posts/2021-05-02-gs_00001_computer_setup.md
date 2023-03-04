@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Computer Setup
+title: Computer Setup for Software Engineers
 category: Getting Started
 permalink: /categories/getting_started/computer_setup
 excerpt: "What computer do you need as a software engineer?"
@@ -288,7 +288,7 @@ is not so much price difference in low power segments, you can just buy a
 graphics card. As for housing, you can almost choose whatever you like. Keep an
 eye on the form factor and the provided interfaces. A housing with preinstalled
 fans makes the assembling easier for you. The thermal paste needs to be put
-between the processer and the heat sink to guarantee optimal cooling. Sometimes
+between the processor and the heat sink to guarantee optimal cooling. Sometimes
 the fan already has some thermal paste on it. Then, you do not need additional
 paste.
 

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Environment Variables
+title: Intro to Environment Variables
 category: Getting Started
 permalink: /categories/getting_started/environment_variables
 excerpt: "What they are and why they are useful"
@@ -20,12 +20,13 @@ header:
   overlay_image: /assets/images/getting_started.jpeg
 ---
 
-We are glad that you are still following us on our journey! In our first
-[post](/categories/getting_started/computer_setup), we explained how to set up
-your personal Linux machine. Then, we demonstrated essential commands to control
-your computer in [Terminal Basics](/categories/getting_started/terminal_basics)
-and [Terminal Basics II](/categories/getting_started/terminal_basics2). Lastly,
-we implemented our first
+We are glad that you are still following us on our journey! In our first post,
+we presented our personal Linux
+[Computer Setup](/categories/getting_started/computer_setup). Then, we
+demonstrated essential commands to control your computer in
+[Terminal Basics](/categories/getting_started/terminal_basics) and
+[Terminal Basics II](/categories/getting_started/terminal_basics2). Lastly, we
+implemented our first
 [Basic Shell Script](/categories/getting_started/basic_shell_scripts). In our
 opinion, this is all you need for a smooth beginner's dive into the Linux world.
 But wait ... There are two topics we mentioned in the previous post which we

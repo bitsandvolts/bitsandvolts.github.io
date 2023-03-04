@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Basic Shell Scripts
+title: Basics of Linux Shell Scripts
 category: Getting Started
 permalink: /categories/getting_started/basic_shell_scripts
 excerpt: "Automate repeating tasks"

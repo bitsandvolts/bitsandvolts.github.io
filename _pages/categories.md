@@ -1,8 +1,8 @@
 ---
 layout: splash
-title: "Categories"
+title: "Explore our Blog Categories"
 permalink: /categories/
-description: "Overview of our blog categories"
+description: "Explore our blog categories Getting Started and Digital Design"
 date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#000"
@@ -15,7 +15,7 @@ feature_row1:
       "Software Engineering for beginners. Basic knowledge for students and
       enthusiasts who want to find their starting point"
     url: /categories/getting_started
-    btn_label: "Read More"
+    btn_label: "Explore Posts"
     btn_class: "btn--primary"
     alt: Software Engineering for beginners
     description:
@@ -26,7 +26,7 @@ feature_row2:
     title: "Efficient coding in C"
     excerpt: "weglassen?"
     url: "#test-link"
-    btn_label: "Read More"
+    btn_label: "Explore Posts"
     btn_class: "btn--primary"
 feature_row3:
   - image_path: /assets/images/digital_design.jpeg
@@ -38,7 +38,7 @@ feature_row3:
       "Introduction to Digital Design. Have you ever wanted to know how to
       design your own computer chip?"
     url: /categories/digital_design
-    btn_label: "Read More"
+    btn_label: "Explore Posts"
     btn_class: "btn--primary"
 ---
 
