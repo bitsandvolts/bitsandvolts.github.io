@@ -4,6 +4,7 @@ title: Terminal Basics
 category: Getting Started
 permalink: /categories/getting_started/terminal_basics
 excerpt: "Basic Linux Terminal usage"
+description: "Basic Linux Terminal usage. A blog post for beginners"
 author: Bjoern Hartmann
 toc: true
 toc_label: "Content"
@@ -14,7 +15,7 @@ sidebar:
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/getting_started.jpg
+  overlay_image: /assets/images/getting_started.jpeg
 ---
 
 <div class='note-normal'>
@@ -47,11 +48,11 @@ software changes with a new version. So, if you use a different version, things
 might look slightly different compared to the description in our post. For the
 following post, you should not have to care about it. Shall we start?
 
-# Communication with a Computer
+## Communication with a Computer
 
 <div style="overflow: auto;" markdown="1">
 <figure class="img-left">
-  <img src="/assets/images/gs_00002_terminal.jpeg" alt="">
+  <img src="/assets/images/gs_00002_terminal.jpeg" alt="Old Terminal" title="Old Terminal">
 </figure>
 
 Early computers came without a graphical interface like you are used to today.
@@ -71,11 +72,11 @@ machine.
 
 </div>
 
-# Open a Terminal
+## Open a Terminal
 
 <div style="overflow: auto;" markdown="1">
 <figure class="img-right">
-  <img src="/assets/images/gs_00002_openterminal.png" alt="">
+  <img src="/assets/images/gs_00002_openterminal.png" alt="Open Terminal" title="Open Terminal">
 </figure>
 
 Before we start with the actual commands, we have to open a terminal. Therefore,
@@ -101,7 +102,7 @@ you.
 </div>
 
 <figure class="img-center" style="width:80%">
-  <img src="/assets/images/gs_00002_term.png" alt="">
+  <img src="/assets/images/gs_00002_term.png" alt="Terminal" title="Terminal">
 </figure>
 
 Since the terminal is used very often, it is convenient to use a shortcut to
@@ -112,7 +113,7 @@ shortcut of your choice but avoid commonly used shortcuts as CTRL-C, CTRL-V, or
 CTRL-S. A good choice could be CTRL-T (T for Terminal). Close the Keyboard
 window and try to open a terminal using your previously added shortcut.
 
-# Basic Commands
+## Basic Commands
 
 Learning to master Linux and its programs with a terminal is like learning a new
 language. There seems to be an infinite number of commands and very often there
@@ -130,7 +131,7 @@ The best way to get used to the terminal is to actually use it and practice the
 commands. So, let's get started with the first two points in this blog post. The
 other three points will be explained in an upcoming post.
 
-## Navigation
+### Navigation
 
 When you open a file explorer in a graphical interface, it will open a default
 folder. The same happens if you open a terminal. To find out which folder will
@@ -145,7 +146,7 @@ terminal. So just insert "pwd" and hit the return key._
 </div>
 
 <figure class="img-center" style="width:80%">
-  <img src="/assets/images/gs_00002_pwd.jpeg" alt="">
+  <img src="/assets/images/gs_00002_pwd.jpeg" alt="pwd" title="pwd">
 </figure>
 
 After you executed the command, you should get something like "/home/your_name"
@@ -211,7 +212,7 @@ faster to type than to search for in your history. If you are a lazy typer, you
 also can highlight a command, for example, in your web browser and paste it into
 the terminal by pressing your mouse wheel.
 
-## Play with files and folders
+### Play with files and folders
 
 Next, we want to show how to deal with files and folders. You can create a file
 using the "touch" command with the file name as a parameter:
@@ -296,7 +297,7 @@ Exercise:
 
 </div>
 
-## A few more words
+### A few more words
 
 Let's take a deep breath. So far, we learned the following commands:
 
@@ -398,7 +399,7 @@ command is processed.
 
 </div>
 
-# Summary
+## Summary
 
 We summarized the commands in a cheat sheet, that you can find in the
 [GitHub repository](https://github.com/bitsandvolts/getting_started) of the

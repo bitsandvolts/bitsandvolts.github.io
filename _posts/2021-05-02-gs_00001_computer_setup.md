@@ -3,7 +3,8 @@ layout: single
 title: Computer Setup
 category: Getting Started
 permalink: /categories/getting_started/computer_setup
-excerpt: "What computer do you need as a computer engineer?"
+excerpt: "What computer do you need as a software engineer?"
+description: "What computer do you need as a software engineer?"
 author: Bjoern Hartmann
 toc: true
 toc_label: "Content"
@@ -14,7 +15,7 @@ sidebar:
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/getting_started.jpg
+  overlay_image: /assets/images/getting_started.jpeg
 ---
 
 Welcome to our first **Getting Started** post. Have you ever dreamed of
@@ -33,7 +34,7 @@ imagine that people had to build the first computer without the help of a
 computer! :). Many things have to be considered when setting up a machine, which
 will be the topic of this post. Shall we get started?
 
-# A computer for all needs
+## A computer for all needs
 
 If you want to dive into the field of electrical or computer engineering it is
 inevitable to have a suitable computer. But what does that actually mean? What
@@ -58,7 +59,7 @@ explained in the last part.
 Please feel free to skip to the part that is of interest to you. If you have
 additional thoughts, we welcome your comments below.
 
-# Computer parts
+## Computer parts
 
 Every desktop computer contains the same key parts like a processor, memories, a
 mainboard, and some sort of cooling. Each part can vary greatly from computer to
@@ -70,11 +71,11 @@ my requirements? For both questions, it is useful to be able to assess the power
 of a computer. In the following, you will get an overview of the most important
 components inside a computer and learn how to evaluate them.
 
-## CPU
+### CPU
 
 <div style="overflow: auto;" markdown="1">
 <figure class="img-left">
-  <img src="/assets/images/gs_00001_cpu.jpeg" alt="">
+  <img src="/assets/images/gs_00001_cpu.jpeg" alt="CPU" title="CPU">
 </figure>
 Let's start with the brain of the computer, the **Central Processing Unit**
 (CPU). As the name suggests it processes the operations (or "instructions") that
@@ -110,11 +111,11 @@ becomes a non-trivial question since it depends on your application. In the
 extreme case, a program makes no use of parallelism at all. Then, the multi-core
 feature is useless.
 
-## DDR SDRAM (RAM)
+### DDR SDRAM (RAM)
 
 <div style="overflow: auto;" markdown="1">
 <figure class="img-right">
-  <img src="/assets/images/gs_00001_ram.jpeg" alt="">
+  <img src="/assets/images/gs_00001_ram.jpeg" alt="RAM" title="RAM">
 </figure>
 A computer combines multiple memories, which differ in size and access speed.
 **Random Access Memory** (RAM) is a medium-sized memory with medium speed. It is
@@ -132,11 +133,11 @@ the main reason why you should properly shut down a computer to make sure all
 data is stored in a _long-term_ memory, which is explained next.
 </div>
 
-## HDD and SSD
+### HDD and SSD
 
 <div style="overflow: auto;" markdown="1">
 <figure class="img-left">
-  <img src="/assets/images/gs_00001_hdd.jpeg" alt="">
+  <img src="/assets/images/gs_00001_hdd.jpeg" alt="HDD" title="HDD">
   <figcaption class="figure-caption text-center">HDD</figcaption>
 </figure>
 Nowadays two different kinds of long-term memories find their way into home
@@ -158,7 +159,7 @@ too good to be true, right? Why are HDDs still used then?
 
 <div style="overflow: auto;" markdown="1">
 <figure class="img-right">
-  <img src="/assets/images/gs_00001_ssd.png" alt="">
+  <img src="/assets/images/gs_00001_ssd.png" alt="SSD" title="SSD">
   <figcaption class="figure-caption text-center">SSD</figcaption>
 </figure>
 From early days there exists the myth that SSDs would die early. But this is
@@ -172,11 +173,11 @@ boots from an HDD, you can watch
 [this](https://www.youtube.com/watch?v=4f4saFpRlvU) video.
 </div>
 
-## Graphics Processing Unit (GPU)
+### Graphics Processing Unit (GPU)
 
 <div style="overflow: auto;" markdown="1">
 <figure class="img-left">
-  <img src="/assets/images/gs_00001_gpu.jpeg" alt="">
+  <img src="/assets/images/gs_00001_gpu.jpeg" alt="GPU" title="GPU">
 </figure>
 As the name suggests, the **graphics processing unit** (or graphics card) was
 developed for handling extensive graphics applications like computer games. Over
@@ -193,11 +194,11 @@ monitors (three or more). Most people I know use one or two monitors at home.
 This should be fine with the integrated graphics unit.
 </div>
 
-## Mainboard
+### Mainboard
 
 <div style="overflow: auto;" markdown="1">
 <figure class="img-right">
-  <img src="/assets/images/gs_00001_mainboard.jpeg" alt="">
+  <img src="/assets/images/gs_00001_mainboard.jpeg" alt="Mainborad" title="Mainboard">
 </figure>
 The mainboard or motherboard is the place where everything is put together. The
 mainboard is a printed circuit board that allows all the components of the
@@ -206,7 +207,7 @@ mentioned above as well as a power supply and cooling fans. It also provides
 external interfaces like USB ports.
 </div>
 
-# Is a high-end computer necessary?
+## Is a high-end computer necessary?
 
 No! Definitely no! But well ... It depends! If you just want to get some
 experience in coding, you technically don't even need to have full-blown
@@ -217,13 +218,13 @@ such as machine learning, you require a computer with higher performance. In
 electrical engineering, often powerful algorithms are used to design circuits.
 If you plan to design you own chip, then having a powerful computer can speed up
 the process (by the way, in case you haven't seen it already, we also have
-another category, [Digital Design](/categories/digital_design/), where we will
+another category, [Digital Design](/categories/digital_design), where we will
 talk about how chips are designed). But still, it does not have to be a high-end
 computer. As an example, I paid 447€ for my computer plus 127€ for a graphics
 card. The latter I mostly use for gaming so you can ignore it. I will give a
 more detailed description in the next section.
 
-# Build your own computer
+## Build your own computer
 
 Building a computer on your own is not as hard as it sounds. The challenging
 part is to choose parts that match your application as well as your budget. The
@@ -244,7 +245,7 @@ score considering multiple aspects. You can use websites like
 Additionally, a mark/price ranking is provided as shown in the picture below.
 
 <figure class="img-center">
-  <img src="/assets/images/gs_00001_mark_price.jpeg" alt="">
+  <img src="/assets/images/gs_00001_mark_price.jpeg" alt="Mark/Price" title="Best CPU value">
   <figcaption class="figure-caption text-center">Best CPU value (Mark/Price)
   </figcaption>
 </figure>
@@ -312,7 +313,7 @@ computer. Of course, you can spend more if you like, but you can also downgrade
 a bit and get even cheaper. For things we plan to do in this blog, a computer as
 shown in the table will be sufficient.
 
-# Windows, Linux, Mac?
+## Windows, Linux, Mac?
 
 So far we talked only about the hardware and not the software running on it. The
 main software on a computer is the **operating system**. It has control of your
@@ -382,7 +383,7 @@ As an option, you can install multiple operating systems on one computer. For
 example, Windows for gaming and Linux for programming. How this can be achieved
 is explained in the next section.
 
-# Dual Boot
+## Dual Boot
 
 Even though Windows has a bad reputation among many developers (sometimes it
 really sucks!) it still has its advantages. Especially in gaming, it is still
@@ -442,7 +443,7 @@ What you have to do for installing Manjaro alongside Windows:
 If you run into any problems ask your questions in the comments below! We will
 try to help you out!
 
-# Summary
+## Summary
 
 For the first post, we covered already a lot of things. If everything went well
 you should now have a running computer with Manjaro installed. A quick summary

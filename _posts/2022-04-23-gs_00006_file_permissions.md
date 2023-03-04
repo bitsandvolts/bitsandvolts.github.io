@@ -4,6 +4,9 @@ title: File Permissions
 category: Getting Started
 permalink: /categories/getting_started/file_permissions
 excerpt: "A Linux security mechanism."
+description:
+  File permissions are a Linux security feature. Learn how to handle them in
+  this blog article.
 author: Bjoern Hartmann
 toc: true
 toc_label: "Content"
@@ -14,7 +17,7 @@ sidebar:
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/getting_started.jpg
+  overlay_image: /assets/images/getting_started.jpeg
 ---
 
 Hello and welcome back to a new post, where we want to fill a small gap from our
@@ -27,7 +30,7 @@ following command at a few points:
 If this command is completely new to you, feel free to read the previous posts
 or keep reading because we explain it from the beginning. Let's get started!
 
-# What are file permissions?
+## What are file permissions?
 
 We already mentioned that a Linux system can be shared by multiple users. Now,
 imagine you are working on a very important project. Then, you don't want that
@@ -67,7 +70,7 @@ imagine that wrong permissions can open the doors for all kinds of security
 issues. For now, we just want you to understand why you might get a "permission
 denied" error as we have seen in previous posts.
 
-# How to handle file permissions?
+## How to handle file permissions?
 
 Enough about theory! Let's get our fingers on the keyboard! Open a terminal,
 create a folder, change into it, and create a file:
@@ -90,7 +93,7 @@ Note: `ls -l` list all files in the current folder. You can also use
 </div>
 
 <figure class="img-center" style="width:90%">
-  <img src="/assets/images/gs_00006_ls.png" alt="">
+  <img src="/assets/images/gs_00006_file_permissions.png" title="File Permissions" alt="File Permissions">
 </figure>
 
 To be honest, the output looks a bit scary at the beginning, but it is not that
@@ -148,7 +151,7 @@ the machine who can do whatever he wants.
 
 That's it! Easy, isn't it?
 
-# Set permissions using numeric values
+## Set permissions using numeric values
 
 Very often there is more than just one way to achieve a goal. There is another
 syntax using numeric values that is commonly used for file permissions. If you
@@ -188,7 +191,7 @@ The solution is:
 You can decide for yourself which way you prefer. The way from the previous
 section is maybe easier to remember, but both achieve the same goal.
 
-# Summary
+## Summary
 
 Congratulations! Now, you should be able to explain why you get a **permission
 denied** error:

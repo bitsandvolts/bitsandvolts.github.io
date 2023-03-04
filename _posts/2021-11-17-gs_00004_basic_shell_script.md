@@ -4,6 +4,8 @@ title: Basic Shell Scripts
 category: Getting Started
 permalink: /categories/getting_started/basic_shell_scripts
 excerpt: "Automate repeating tasks"
+description:
+  "Automate repeating tasks using shell scripts. A blog post for beginners."
 author: Bjoern Hartmann
 toc: true
 toc_label: "Content"
@@ -14,7 +16,7 @@ sidebar:
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/getting_started.jpg
+  overlay_image: /assets/images/getting_started.jpeg
 ---
 
 <div class='note-normal'>
@@ -37,11 +39,11 @@ autocompletion and the "\*" operator are reason enough for us to use the
 terminal, this might not convince everyone. So, we want to go one step further.
 Are you ready?
 
-# Ideology
+## Ideology
 
 <div style="overflow: auto;" markdown="1">
 <figure class="img-right">
-  <img src="/assets/images/gs_00004_josephine.jpg" alt="">
+  <img src="/assets/images/gs_00004_josephine.jpg" alt="Josephine" title="Josephine">
 </figure>
 
 Let's do some time traveling into the year 1886. There was a woman called
@@ -69,7 +71,7 @@ shell.
 
 </div>
 
-# Your first Bash Script
+## Your first Bash Script
 
 The typical morning of a software developer is often very similar. You go to
 work, get your first coffee and then open all required software for your job:
@@ -172,7 +174,7 @@ Can you imagine another program you want to run for your daily work?
 
 </div>
 
-# A second example
+## A second example
 
 Congratulations! You just ran your first script! Good job! Now we want to give
 you a second example and explain two more interesting features of bash scripts.
@@ -294,7 +296,7 @@ Verify that you moved inside the project folder:
 
     $ pwd
 
-# Summary
+## Summary
 
 Yaaay! Your first scripts are running. Doesn't that feel cool? Let's try to
 summarize what we learned in this post. As always, you can find the two example
@@ -318,7 +320,7 @@ variables**! Stay tuned, and don't forget to follow us on
 [Twitter](https://twitter.com/bitsandvolts)! If you cannot wait to learn more,
 be our guest in the following bonus section.
 
-# Shell, Terminal, Console ... (Bonus)
+## Shell, Terminal, Console ... (Bonus)
 
 In this post, we have introduced you to the shell. Sometimes though, you might
 hear terms like "terminal", or "console". All these terms are very confusing for
