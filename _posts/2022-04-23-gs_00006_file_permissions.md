@@ -1,6 +1,6 @@
 ---
 layout: single
-title: File Permissions
+title: File Permission Basics
 category: Getting Started
 permalink: /categories/getting_started/file_permissions
 excerpt: "A Linux security mechanism."

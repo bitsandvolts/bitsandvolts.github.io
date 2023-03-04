@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Terminal Basics
+title: Linux Terminal Basics
 category: Getting Started
 permalink: /categories/getting_started/terminal_basics
 excerpt: "Basic Linux Terminal usage"
