@@ -40,6 +40,7 @@ feature_row3:
     url: /categories/digital_design
     btn_label: "Explore Posts"
     btn_class: "btn--primary"
+    alt: Digital Design
 ---
 
 <!-- <br> -->
