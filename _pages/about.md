@@ -1,6 +1,6 @@
 ---
 layout: single
-title: About Bits&Volts
+title: About Blog and Authors
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -14,7 +14,7 @@ toc_icon: "align-justify"
 
 ## Bits&Volts - A blog for everyone
 
-There are already tons of good resources available. So you are probably
+There are already tons of good resources available. So, you are probably
 wondering why we are starting another blog. Back when we were fresh students, we
 always felt that the barrier to enter the field of electronics is way higher
 than it should've been. Even at university, we learned deep and complex theory,
@@ -50,9 +50,9 @@ journey started with studying Electrical Engineering at RWTH Aachen University
 in Germany. At the Institute for Communication Technologies and Embedded
 Systems, we worked as student assistants, where we contributed to different
 projects in the fields of hardware accelerators for machine learning, FPGA
-design, processor prototyping and embedded software. Nowadays, Bjoern works as a
-firmware developer in the audio industry. Kirthihan works as a digital hardware
-developer in the cybersecurity industry.
+design, processor prototyping and embedded software. Nowadays, Bjoern works as
+software engineer in the area of Electronic Design Automation (EDA). Kirthihan
+works as a software engineer in the field of System Simulation.
 
 ## How you can reach us
 
