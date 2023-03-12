@@ -29,7 +29,7 @@ are there so many of them? What concepts do they share?
 
 To answer this question, we need to talk about how a computer works. Don't
 worry! The hardcore stuff will be explained in our category
-[Digital Design](/categories/digital_design/). Here, we just need some basic
+[Digital Design](/categories/digital_design). Here, we just need some basic
 understanding. Let's start with a very fundamental question: What is a
 **program**? A program is essentially a sequence of **instructions** that tells
 the computer what to do. Instructions can be very simple like an addition, but
