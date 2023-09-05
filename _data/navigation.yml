@@ -16,6 +16,8 @@ getting_started_0:
     children:
       - title: "Computer Setup for Software Engineers"
         url: /categories/getting_started/computer_setup
+      - title: "Visual Studio Code"
+        url: /categories/getting_started/visual_code
   - title: "Basics"
     children:
       - title: "Linux Terminal Basics"
