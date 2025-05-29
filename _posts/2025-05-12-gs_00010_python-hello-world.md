@@ -223,7 +223,37 @@ program. Again, indentation shows which command belongs to which structure.
 > Stay patient! Count is: 1<br> Stay patient! Count is: 2<br> Almost there!
 > Count is: 3<br> Almost there! Count is: 4<br> Finally done! Count is: 5
 
-### Side Note: Indentation & Style Guides
+### Comments
+
+"What the fu\*\* have I done here?" - This is a question you will probably ask
+yourself very soon. Sometimes, code is complex and to be able to understand it a
+few days (or years) later it is crucial to leave some comments. For functions,
+it is good practise to explain what they do in the first line. For other
+locations it depends. A general rule is to comment as little as possible but as
+much as necessary. There are three major ways of commenting in Python:
+
+```python
+def simple_counter(target):
+    """
+    Prints numbers from 1 up to the given target (inclusive).
+
+    This is a Docstring, which is often used for documenting functions
+    """
+    count = 1
+    while count <= target:
+        if count == target:
+            print("Finally done! Count is:", count)
+        elif count >= target - 2:
+            print("Almost there! Count is:", count)
+        else:
+            print("Stay patient! Count is:", count)
+        count += 1
+
+# I am a single-line comment
+simple_counter(5) # I am an inline comment
+```
+
+## Side Note: Indentation & Style Guides
 
 You've learned already that indentation is crucial for structuring your program.
 In Python, it plays an even more important role because it defines which
@@ -264,6 +294,7 @@ we covered:
   - Loops
   - Functions
   - Conditional statements (if-else)
+  - Comments
 - [PEP 8](https://peps.python.org/pep-0008/) is a popular style guide for
   Python.
 
