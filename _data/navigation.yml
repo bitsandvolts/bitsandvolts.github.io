@@ -36,3 +36,5 @@ getting_started_0:
         url: /categories/getting_started/programming_tutorial_II
       - title: "Python: Hello World"
         url: /categories/getting_started/python_hello_world
+      - title: "Python Packages & Venvs"
+        url: /categories/getting_started/python_packages_and_venvs
