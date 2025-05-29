@@ -34,3 +34,5 @@ getting_started_0:
         url: /categories/getting_started/programming_tutorial_I
       - title: "Programming Tutorial II"
         url: /categories/getting_started/programming_tutorial_II
+      - title: "Python: Hello World"
+        url: /categories/getting_started/python_hello_world
