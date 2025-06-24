@@ -115,10 +115,11 @@ count = 1
 print("Count is:", count)
 ```
 
-In this case, we define a **variable** called count and set it to 1. The print()
-function is used to output the value of count to the screen. Unlike printing a
-fixed message like "Hello World", notice that we don't put the variable name in
-quotes. Doing so would print the word "count" instead of its value.
+In this case, we define a **variable** called _count_ and set it to 1. The
+_print()_ function is used to output the value of _count_ to the screen. Unlike
+printing a fixed message like "Hello World", notice that we don't put the
+variable name in quotes. Doing so would print the word "count" instead of its
+value.
 
 > Count is: 1
 
@@ -137,10 +138,10 @@ while count <= 5:
     count += 1
 ```
 
-In this version, the variable count starts at 1. The while loop checks whether
-count is less than or equal to 5. As long as that condition is true, the loop
-keeps running. Inside the loop, the program prints the current value of count,
-then increases it by 1 using count += 1. Once the count reaches 6, the condition
+In this version, the variable _count_ starts at 1. The while loop checks whether
+_count_ is less than or equal to 5. As long as that condition is true, the loop
+keeps running. Inside the loop, the program prints the current value of _count_,
+then increases it by 1 using _count_ += 1. Once _count_ reaches 6, the condition
 becomes false, and the loop ends.
 
 An important detail here is **indentation**. Python uses indentation to show
@@ -175,7 +176,8 @@ the function.
 
 At the end, you just have to **call** the function passing a value for the
 parameter. If you pass _5_, the output is exactly the same as with the previous
-code without function. Using functions has three major benefits:
+code without function. Try to use different values and observe the output. Using
+functions has three major benefits:
 
 1. **Code organization**: It is easy to understand your code if it is structured
    in small logical blocks.
@@ -213,9 +215,10 @@ def simple_counter(target):
 simple_counter(5)
 ```
 
-**if** is used to check for a condition. Note that if you want to check for
+**if** is used to check for a condition. Note that in case you want to check for
 equality, you have to use "==" and **not** "=". This is a common beginner
-mistake. **elif** (short for 'else if') is used to check a second condition if
+mistake. The latter one is only used for assigning a value to a
+variable.**elif** (short for 'else if') is used to check a second condition if
 the if condition is false. You can include as many elif clauses as needed.
 **else** handles all remaining cases and acts as the "otherwise" in your
 program. Again, indentation shows which command belongs to which structure.
@@ -225,19 +228,20 @@ program. Again, indentation shows which command belongs to which structure.
 
 ### Comments
 
-"What the fu\*\* have I done here?" - This is a question you will probably ask
-yourself very soon. Sometimes, code is complex and to be able to understand it a
-few days (or years) later it is crucial to leave some comments. For functions,
-it is good practise to explain what they do in the first line. For other
-locations it depends. A general rule is to comment as little as possible but as
-much as necessary. There are three major ways of commenting in Python:
+"What the \*\*\*\* have I done here?" - This is a question you will probably ask
+yourself very soon. Sometimes, code is complex and to be able to understand it
+in a few days (or years) later it is crucial to leave some comments. For
+functions, it is good practise to explain what they do in the first line. For
+other locations it depends. A general rule is to comment as little as possible
+but as much as necessary. There are three major ways of commenting in Python:
 
 ```python
 def simple_counter(target):
     """
     Prints numbers from 1 up to the given target (inclusive).
 
-    This is a Docstring, which is often used for documenting functions
+    This is a Docstring (multi-line comment),
+    which is often used for documenting functions
     """
     count = 1
     while count <= target:
